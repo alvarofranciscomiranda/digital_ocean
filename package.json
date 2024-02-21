@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-image-demo",
+  "version": "1.0.0",
+  "description": "nodejs image kubernetes",
+  "author": "Francisco <a.francisco.b.miranda@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "homepage": "https://github.com/alvarofranciscomiranda/digital_ocean",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

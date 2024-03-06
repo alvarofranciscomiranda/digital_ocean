@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 
 # original script: https://github.com/eficode/wait-for/blob/master/wait-for
 
@@ -14,10 +14,9 @@ usage() {
 	cat << USAGE >&2
 Usage:
 	$cmdname host:port [-t timeout] [-- command args]
-	-q | --quiet Do not output any status messages
-	-t TIMEOUT | --timeout=timeout Timeout in seconds, zero for
-	no timeout
-	-- COMMAND ARGS Execute command with args after the test finishes
+	-q | --quiet                      Do not output any status messages
+	-t TIMEOUT | --timeout=timeout    Timeout in seconds, zero for no timeout
+	-- COMMAND ARGS                   Execute command with args after the test finishes
 USAGE
 	exit "$exitcode"
 }
